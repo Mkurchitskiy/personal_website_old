@@ -6,6 +6,10 @@
     box-sizing: border-box;
   }  
 
+navbar {
+    background-color: grey;
+}
+
 header {
     background-color: grey;
 }

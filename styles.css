@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: silver;
 }  
 
 .navbar {
@@ -42,15 +43,39 @@ background-color: #555;
 
 .header {
     background-color: grey;
+    margin-bottom: 15px;
 }
 
 .middle {
     margin: 0 auto;
-    background-color: Silver;
+    background-color: grey;
     font-family: Arial, sans-serif;
     width: 1000px
 }
 
 .footer {
-    background-color: gray;
+    background-color: #555;
+    margin-top: 50px
 }
+
+.educationSpacing {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.educationBody {
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+#educationHeading {
+    margin-bottom: 10px;
+}
+
+#educationLine1 {
+    border: none;
+    border-top: 2px solid black;
+    margin: 20px 0;
+    margin-left: -200px;
+}
+

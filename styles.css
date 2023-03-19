@@ -1,4 +1,13 @@
 
+
+head {
+    background-color: grey;
+}
+
 body {
     background-color: Silver;
+}
+
+footer {
+    background-color: gray;
 }

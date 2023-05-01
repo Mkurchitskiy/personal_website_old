@@ -1,87 +1,12 @@
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: silver;
-}  
-
-.navbar {
-background-color: #333;
-height: 60px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 0 20px;
-font-family: Arial, sans-serif;
-font-size: 18px;
-}
-
-.navbar ul {
-display: flex;
-list-style: none;
-}
-
-.navbar li {
-margin-right: 20px;
-}
-
-.navbar a {
-color: #fff;
-text-decoration: none;
-padding: 10px 15px;
-}
-
-.navbar a:hover {
-background-color: #555;
-}
-
-#summery {
-    width: 1000px;
-}
-
-.header {
+.logo-link {
+    display: inline-block;
     background-color: grey;
-    margin-bottom: 15px;
-}
-
-.logo {
+    padding: 10px; /* add some padding to make the background visible */
+  }
+  
+  .logo-link img {
     display: block;
-    max-width: 75px;
-    margin: 0;
-}
-
-.middle {
-    margin: 0 auto;
-    background-color: grey;
-    font-family: Arial, sans-serif;
-    width: 1000px
-}
-
-.footer {
-    background-color: #555;
-    margin-top: 50px
-}
-
-.educationSpacing {
-    margin-top: 50px;
-    margin-left: 50px;
-}
-
-.educationBody {
-    margin-left: 200px;
-    margin-top: 40px;
-}
-
-#educationHeading {
-    margin-bottom: 10px;
-}
-
-#educationLine1 {
-    border: none;
-    border-top: 2px solid black;
-    margin: 20px 0;
-    margin-left: -200px;
-}
-
+    height: auto;
+    max-width: 10%; /* make the image responsive */
+  }
+  
